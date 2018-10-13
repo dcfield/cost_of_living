@@ -1,0 +1,8 @@
+*.pyc
+sample_daft_result.html
+db.sqlite3
+g++-4.8
+gcc-4.8
+grant
+sleep_setting.bash
+.idea

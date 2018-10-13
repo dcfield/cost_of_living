@@ -1,0 +1,23 @@
+{% extends 'map/layout.html' %}
+
+{% block content %}
+    <h1 class="left-align orange-text lighten-3">Average cost per month</h1>
+    
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="https://images.pexels.com/photos/675949/pexels-photo-675949.jpeg?cs=srgb&dl=landscape-nature-sunset-675949.jpg&fm=jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p><b>Areacode</b>: {{postcode}}</p>
+          <p><b>Average rent in area</b>: £{{result}}</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+
+
+    <a href="/map" class="btn waves-effect orange waves-light">Go back</a>
+{% endblock %}

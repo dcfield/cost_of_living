@@ -1,0 +1,16 @@
+{% extends 'map/layout.html' %}
+
+{% block content %}
+    <h1 class="left-align orange-text lighten-3">{{action}}</h1>
+    <form action="/map/calculate" method="POST" class="main_form">
+        
+        {% csrf_token %}
+
+        <label for="postcode">Enter desired home areacode</label>
+        <input type="text" id="postcode" name="postcode">
+
+        <input type="submit" value="Submit" class="btn waves-effect orange waves-light">
+
+  </button>
+    </form>
+{% endblock %}
