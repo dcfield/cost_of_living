@@ -2,7 +2,7 @@ beautifulsoup4==4.6.3
 bs4==0.0.1
 certifi==2018.8.24
 chardet==3.0.4
-Django==1.11.14
+Django==2.2.24
 django-map-widgets==0.2.0
 funcsigs==1.0.2
 idna==2.7
